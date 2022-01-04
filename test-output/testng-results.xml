@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16656" started-at="2022-01-04T16:05:55 EET" finished-at="2022-01-04T16:06:12 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16656" started-at="2022-01-04T16:05:55 EET" finished-at="2022-01-04T16:06:12 EET">
+      <class name="ApprovalPipelineDetails">
+        <test-method status="PASS" signature="MethodSetup()[pri:0, instance:ApprovalPipelineDetails@1808f31]" name="MethodSetup" is-config="true" duration-ms="16341" started-at="2022-01-04T16:05:55 EET" finished-at="2022-01-04T16:06:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodSetup -->
+        <test-method status="PASS" signature="pipelineID()[pri:1, instance:ApprovalPipelineDetails@1808f31]" name="pipelineID" duration-ms="38" started-at="2022-01-04T16:06:12 EET" finished-at="2022-01-04T16:06:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pipelineID -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:ApprovalPipelineDetails@1808f31]" name="closwWindnow" is-config="true" duration-ms="0" started-at="2022-01-04T16:06:12 EET" finished-at="2022-01-04T16:06:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closwWindnow -->
+        <test-method status="PASS" signature="operationType()[pri:2, instance:ApprovalPipelineDetails@1808f31]" name="operationType" duration-ms="39" started-at="2022-01-04T16:06:12 EET" finished-at="2022-01-04T16:06:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationType -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:ApprovalPipelineDetails@1808f31]" name="closwWindnow" is-config="true" duration-ms="0" started-at="2022-01-04T16:06:12 EET" finished-at="2022-01-04T16:06:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closwWindnow -->
+        <test-method status="PASS" signature="actionType()[pri:3, instance:ApprovalPipelineDetails@1808f31]" name="actionType" duration-ms="29" started-at="2022-01-04T16:06:12 EET" finished-at="2022-01-04T16:06:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actionType -->
+        <test-method status="PASS" signature="merchantName()[pri:4, instance:ApprovalPipelineDetails@1808f31]" name="merchantName" duration-ms="29" started-at="2022-01-04T16:06:12 EET" finished-at="2022-01-04T16:06:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- merchantName -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:ApprovalPipelineDetails@1808f31]" name="closwWindnow" is-config="true" duration-ms="0" started-at="2022-01-04T16:06:12 EET" finished-at="2022-01-04T16:06:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closwWindnow -->
+        <test-method status="PASS" signature="status()[pri:5, instance:ApprovalPipelineDetails@1808f31]" name="status" duration-ms="31" started-at="2022-01-04T16:06:12 EET" finished-at="2022-01-04T16:06:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:ApprovalPipelineDetails@1808f31]" name="closwWindnow" is-config="true" duration-ms="0" started-at="2022-01-04T16:06:12 EET" finished-at="2022-01-04T16:06:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closwWindnow -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:ApprovalPipelineDetails@1808f31]" name="closwWindnow" is-config="true" duration-ms="0" started-at="2022-01-04T16:06:12 EET" finished-at="2022-01-04T16:06:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closwWindnow -->
+        <test-method status="PASS" signature="Maker()[pri:6, instance:ApprovalPipelineDetails@1808f31]" name="Maker" duration-ms="33" started-at="2022-01-04T16:06:12 EET" finished-at="2022-01-04T16:06:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Maker -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:ApprovalPipelineDetails@1808f31]" name="closwWindnow" is-config="true" duration-ms="0" started-at="2022-01-04T16:06:12 EET" finished-at="2022-01-04T16:06:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closwWindnow -->
+        <test-method status="PASS" signature="dateTime()[pri:7, instance:ApprovalPipelineDetails@1808f31]" name="dateTime" duration-ms="59" started-at="2022-01-04T16:06:12 EET" finished-at="2022-01-04T16:06:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateTime -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:ApprovalPipelineDetails@1808f31]" name="closwWindnow" is-config="true" duration-ms="0" started-at="2022-01-04T16:06:12 EET" finished-at="2022-01-04T16:06:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closwWindnow -->
+      </class> <!-- ApprovalPipelineDetails -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
