@@ -57,6 +57,8 @@ public class ApprovalPipelineDetails {
 	String address = "ABC";
 	String mobileNumber = "01097508504";
 	String accountType = "SVA";
+
+	String serverURL = "https://41.32.119.56:1004/Portal/Account/Login";
 	
 	//----Credentials
 	String fullName = "fullNameTest00";
@@ -77,12 +79,12 @@ public class ApprovalPipelineDetails {
 		
 		capability.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 		capability.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
-		System.setProperty("webdriver.chrome.driver","G:\\\\\\\\chromedriver_win32 (3)\\\\\\\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		driver = new ChromeDriver(capability);
 		WebDriverWait wait = new WebDriverWait(driver,30); //explicit wait
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); //implicit wait
-		driver.get("https://41.32.119.56:1004/Portal/Account/Login");
+		driver.get(serverURL);
 		
 		lgnPgElmnts = new loginPage(driver, wait);
 		systemAdminMenu = new SideMenuElements(driver);

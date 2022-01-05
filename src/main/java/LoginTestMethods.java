@@ -43,7 +43,7 @@ public class LoginTestMethods {
 		
 		capability.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 		capability.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
-		System.setProperty("webdriver.chrome.driver","G:\\\\\\\\chromedriver_win32 (3)\\\\\\\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		
 		driver = new ChromeDriver(capability);
 	    wait = new WebDriverWait(driver,30);

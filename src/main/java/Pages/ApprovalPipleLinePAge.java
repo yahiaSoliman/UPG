@@ -26,7 +26,7 @@ public class ApprovalPipleLinePAge {
 	By itemsCount 			= By.xpath("//*[@id=\"divListPanel\"]/div/div[2]/div/div/p");
 	By srchBtn 				= By.xpath("//*[@id=\"searchBody\"]/div[2]/div/div/button");
 	By apprBtn 				= By.id("btnSave");
-	
+	By queueBtn 			= By.xpath("(//*[@id='btnReply'])[2]");
 	//constructor
 	public ApprovalPipleLinePAge(WebDriver myDriver, WebDriverWait wait) {
 		
@@ -131,6 +131,12 @@ public class ApprovalPipleLinePAge {
 			
 	
 	//----------------------
+		
+		public void clkQueueBtn() {
+			
+			myDriver.findElement(queueBtn).click();
+			
+		}//end getStatusOfFirstRow
 	
 	public void clkSrch() {
 		
