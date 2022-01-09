@@ -18,7 +18,7 @@ public class MerchantsListPage {
 	By merchantName1stRow = By.xpath("//*[@id=\"divListPanel\"]/div[3]/div/table/tbody/tr[1]/td[2]");
 	By searchHeader = By.id("searchHeader");
 	By merchantIDinputField = By.id("MerchantRefId_Name");
-	By searchBtn = By.xpath("//*[@id=\"searchBody\"]/div[8]/div/div/button");
+	By searchBtn = By.xpath("//button[@type = 'submit']");
 	By terminalBtn = By.xpath("//*[@id=\"divListPanel\"]/div[2]/div/table/tbody/tr/td[10]/b/a");	
 	By deleteBtn = By.xpath("//*[@id=\"divListPanel\"]/div[3]/div/table/tbody/tr[1]/td[12]/div/form/button");
     By deleteCnfrm = By.xpath("//a[@class='btn btn-xs btn-primary']");

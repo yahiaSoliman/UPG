@@ -3,12 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ArrovalAndRejectionOfBulks">
+      <class name="MerchantsList">
         <methods>
+          <include name="closwWindnow"/>
+          <include name="viewDetails"/>
+          <include name="viewTerminals"/>
+          <include name="createMerchant"/>
+          <include name="editMerchant"/>
           <include name="MethodSetup"/>
-          <include name="RejectAll"/>
+          <include name="deleteMerchant"/>
         </methods>
-      </class> <!-- ArrovalAndRejectionOfBulks -->
+      </class> <!-- MerchantsList -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

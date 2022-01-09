@@ -1,21 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46781" started-at="2022-01-05T14:42:31 EET" finished-at="2022-01-05T14:43:18 EET">
+  <suite name="Default suite" duration-ms="210567" started-at="2022-01-09T11:51:08 EET" finished-at="2022-01-09T11:54:39 EET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46781" started-at="2022-01-05T14:42:31 EET" finished-at="2022-01-05T14:43:18 EET">
-      <class name="ArrovalAndRejectionOfBulks">
-        <test-method status="PASS" signature="MethodSetup()[pri:0, instance:ArrovalAndRejectionOfBulks@1d31475]" name="MethodSetup" is-config="true" duration-ms="4971" started-at="2022-01-05T14:42:31 EET" finished-at="2022-01-05T14:42:36 EET">
+    <test name="Default test" duration-ms="210567" started-at="2022-01-09T11:51:08 EET" finished-at="2022-01-09T11:54:39 EET">
+      <class name="MerchantsList">
+        <test-method status="PASS" signature="MethodSetup()[pri:0, instance:MerchantsList@1808f31]" name="MethodSetup" is-config="true" duration-ms="11067" started-at="2022-01-09T11:51:08 EET" finished-at="2022-01-09T11:51:19 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MethodSetup -->
-        <test-method status="PASS" signature="RejectAll()[pri:1, instance:ArrovalAndRejectionOfBulks@1d31475]" name="RejectAll" duration-ms="41757" started-at="2022-01-05T14:42:36 EET" finished-at="2022-01-05T14:43:18 EET">
+        <test-method status="PASS" signature="createMerchant()[pri:1, instance:MerchantsList@1808f31]" name="createMerchant" duration-ms="54174" started-at="2022-01-09T11:51:19 EET" finished-at="2022-01-09T11:52:14 EET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RejectAll -->
-      </class> <!-- ArrovalAndRejectionOfBulks -->
+        </test-method> <!-- createMerchant -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:MerchantsList@1808f31]" name="closwWindnow" is-config="true" duration-ms="2213" started-at="2022-01-09T11:52:14 EET" finished-at="2022-01-09T11:52:16 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closwWindnow -->
+        <test-method status="PASS" signature="viewDetails()[pri:2, instance:MerchantsList@1808f31]" name="viewDetails" duration-ms="12670" started-at="2022-01-09T11:52:16 EET" finished-at="2022-01-09T11:52:29 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewDetails -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:MerchantsList@1808f31]" name="closwWindnow" is-config="true" duration-ms="2366" started-at="2022-01-09T11:52:29 EET" finished-at="2022-01-09T11:52:31 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closwWindnow -->
+        <test-method status="PASS" signature="viewTerminals()[pri:3, instance:MerchantsList@1808f31]" name="viewTerminals" duration-ms="21350" started-at="2022-01-09T11:52:31 EET" finished-at="2022-01-09T11:52:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewTerminals -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:MerchantsList@1808f31]" name="closwWindnow" is-config="true" duration-ms="2232" started-at="2022-01-09T11:52:52 EET" finished-at="2022-01-09T11:52:54 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closwWindnow -->
+        <test-method status="PASS" signature="editMerchant()[pri:4, instance:MerchantsList@1808f31]" name="editMerchant" duration-ms="52158" started-at="2022-01-09T11:52:54 EET" finished-at="2022-01-09T11:53:47 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editMerchant -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:MerchantsList@1808f31]" name="closwWindnow" is-config="true" duration-ms="2252" started-at="2022-01-09T11:53:47 EET" finished-at="2022-01-09T11:53:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closwWindnow -->
+        <test-method status="PASS" signature="deleteMerchant()[pri:5, instance:MerchantsList@1808f31]" name="deleteMerchant" duration-ms="47665" started-at="2022-01-09T11:53:49 EET" finished-at="2022-01-09T11:54:37 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMerchant -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:MerchantsList@1808f31]" name="closwWindnow" is-config="true" duration-ms="2237" started-at="2022-01-09T11:54:37 EET" finished-at="2022-01-09T11:54:39 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closwWindnow -->
+      </class> <!-- MerchantsList -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
