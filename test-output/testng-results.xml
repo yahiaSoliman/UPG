@@ -1,57 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="210567" started-at="2022-01-09T11:51:08 EET" finished-at="2022-01-09T11:54:39 EET">
+  <suite name="Default suite" duration-ms="138882" started-at="2022-01-12T14:29:34 EET" finished-at="2022-01-12T14:31:53 EET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="210567" started-at="2022-01-09T11:51:08 EET" finished-at="2022-01-09T11:54:39 EET">
-      <class name="MerchantsList">
-        <test-method status="PASS" signature="MethodSetup()[pri:0, instance:MerchantsList@1808f31]" name="MethodSetup" is-config="true" duration-ms="11067" started-at="2022-01-09T11:51:08 EET" finished-at="2022-01-09T11:51:19 EET">
+    <test name="Default test" duration-ms="138882" started-at="2022-01-12T14:29:34 EET" finished-at="2022-01-12T14:31:53 EET">
+      <class name="CreateUsersTestCases">
+        <test-method status="PASS" signature="ClassSetup()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="ClassSetup" is-config="true" duration-ms="7300" started-at="2022-01-12T14:29:34 EET" finished-at="2022-01-12T14:29:41 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassSetup -->
+        <test-method status="PASS" signature="MethodSetup()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="MethodSetup" is-config="true" duration-ms="2" started-at="2022-01-12T14:29:41 EET" finished-at="2022-01-12T14:29:41 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MethodSetup -->
-        <test-method status="PASS" signature="createMerchant()[pri:1, instance:MerchantsList@1808f31]" name="createMerchant" duration-ms="54174" started-at="2022-01-09T11:51:19 EET" finished-at="2022-01-09T11:52:14 EET">
+        <test-method status="PASS" signature="createBank()[pri:1, instance:CreateUsersTestCases@7d1d39]" name="createBank" duration-ms="24609" started-at="2022-01-12T14:29:41 EET" finished-at="2022-01-12T14:30:06 EET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createMerchant -->
-        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:MerchantsList@1808f31]" name="closwWindnow" is-config="true" duration-ms="2213" started-at="2022-01-09T11:52:14 EET" finished-at="2022-01-09T11:52:16 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closwWindnow -->
-        <test-method status="PASS" signature="viewDetails()[pri:2, instance:MerchantsList@1808f31]" name="viewDetails" duration-ms="12670" started-at="2022-01-09T11:52:16 EET" finished-at="2022-01-09T11:52:29 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- viewDetails -->
-        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:MerchantsList@1808f31]" name="closwWindnow" is-config="true" duration-ms="2366" started-at="2022-01-09T11:52:29 EET" finished-at="2022-01-09T11:52:31 EET">
+        </test-method> <!-- createBank -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="closwWindnow" is-config="true" duration-ms="0" started-at="2022-01-12T14:30:06 EET" finished-at="2022-01-12T14:30:06 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closwWindnow -->
-        <test-method status="PASS" signature="viewTerminals()[pri:3, instance:MerchantsList@1808f31]" name="viewTerminals" duration-ms="21350" started-at="2022-01-09T11:52:31 EET" finished-at="2022-01-09T11:52:52 EET">
+        <test-method status="PASS" signature="createBankAdminSuperVisor()[pri:2, instance:CreateUsersTestCases@7d1d39]" name="createBankAdminSuperVisor" duration-ms="12136" started-at="2022-01-12T14:30:06 EET" finished-at="2022-01-12T14:30:18 EET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- viewTerminals -->
-        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:MerchantsList@1808f31]" name="closwWindnow" is-config="true" duration-ms="2232" started-at="2022-01-09T11:52:52 EET" finished-at="2022-01-09T11:52:54 EET">
+        </test-method> <!-- createBankAdminSuperVisor -->
+        <test-method status="PASS" signature="MethodSetup()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="MethodSetup" is-config="true" duration-ms="0" started-at="2022-01-12T14:30:06 EET" finished-at="2022-01-12T14:30:06 EET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closwWindnow -->
-        <test-method status="PASS" signature="editMerchant()[pri:4, instance:MerchantsList@1808f31]" name="editMerchant" duration-ms="52158" started-at="2022-01-09T11:52:54 EET" finished-at="2022-01-09T11:53:47 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- editMerchant -->
-        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:MerchantsList@1808f31]" name="closwWindnow" is-config="true" duration-ms="2252" started-at="2022-01-09T11:53:47 EET" finished-at="2022-01-09T11:53:49 EET">
+        </test-method> <!-- MethodSetup -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="closwWindnow" is-config="true" duration-ms="0" started-at="2022-01-12T14:30:18 EET" finished-at="2022-01-12T14:30:18 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closwWindnow -->
-        <test-method status="PASS" signature="deleteMerchant()[pri:5, instance:MerchantsList@1808f31]" name="deleteMerchant" duration-ms="47665" started-at="2022-01-09T11:53:49 EET" finished-at="2022-01-09T11:54:37 EET">
+        <test-method status="PASS" signature="createBankUsers(java.lang.String,java.lang.String)[pri:3, instance:CreateUsersTestCases@7d1d39]" name="createBankUsers" duration-ms="10185" started-at="2022-01-12T14:30:18 EET" data-provider="newUserData" finished-at="2022-01-12T14:30:28 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bank Merchants Administrator]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8sep18user]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteMerchant -->
-        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:MerchantsList@1808f31]" name="closwWindnow" is-config="true" duration-ms="2237" started-at="2022-01-09T11:54:37 EET" finished-at="2022-01-09T11:54:39 EET">
+        </test-method> <!-- createBankUsers -->
+        <test-method status="PASS" signature="MethodSetup()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="MethodSetup" is-config="true" duration-ms="0" started-at="2022-01-12T14:30:18 EET" finished-at="2022-01-12T14:30:18 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodSetup -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="closwWindnow" is-config="true" duration-ms="1" started-at="2022-01-12T14:30:28 EET" finished-at="2022-01-12T14:30:28 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closwWindnow -->
-      </class> <!-- MerchantsList -->
+        <test-method status="PASS" signature="MethodSetup()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="MethodSetup" is-config="true" duration-ms="1" started-at="2022-01-12T14:30:28 EET" finished-at="2022-01-12T14:30:28 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodSetup -->
+        <test-method status="PASS" signature="createBankUsers(java.lang.String,java.lang.String)[pri:3, instance:CreateUsersTestCases@7d1d39]" name="createBankUsers" duration-ms="10244" started-at="2022-01-12T14:30:28 EET" data-provider="newUserData" finished-at="2022-01-12T14:30:39 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bank Aggregator Supervisor (Approver)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8sep18user00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBankUsers -->
+        <test-method status="PASS" signature="MethodSetup()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="MethodSetup" is-config="true" duration-ms="1" started-at="2022-01-12T14:30:39 EET" finished-at="2022-01-12T14:30:39 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodSetup -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="closwWindnow" is-config="true" duration-ms="0" started-at="2022-01-12T14:30:39 EET" finished-at="2022-01-12T14:30:39 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closwWindnow -->
+        <test-method status="PASS" signature="createBankUsers(java.lang.String,java.lang.String)[pri:3, instance:CreateUsersTestCases@7d1d39]" name="createBankUsers" duration-ms="10256" started-at="2022-01-12T14:30:39 EET" data-provider="newUserData" finished-at="2022-01-12T14:30:49 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bank Auditor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8sep18user01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBankUsers -->
+        <test-method status="PASS" signature="MethodSetup()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="MethodSetup" is-config="true" duration-ms="0" started-at="2022-01-12T14:30:49 EET" finished-at="2022-01-12T14:30:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodSetup -->
+        <test-method status="PASS" signature="createBankUsers(java.lang.String,java.lang.String)[pri:3, instance:CreateUsersTestCases@7d1d39]" name="createBankUsers" duration-ms="13406" started-at="2022-01-12T14:30:49 EET" data-provider="newUserData" finished-at="2022-01-12T14:31:02 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bank Business User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8sep18user02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBankUsers -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="closwWindnow" is-config="true" duration-ms="0" started-at="2022-01-12T14:30:49 EET" finished-at="2022-01-12T14:30:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closwWindnow -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="closwWindnow" is-config="true" duration-ms="0" started-at="2022-01-12T14:31:02 EET" finished-at="2022-01-12T14:31:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closwWindnow -->
+        <test-method status="PASS" signature="MethodSetup()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="MethodSetup" is-config="true" duration-ms="1" started-at="2022-01-12T14:31:02 EET" finished-at="2022-01-12T14:31:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodSetup -->
+        <test-method status="PASS" signature="createBankUsers(java.lang.String,java.lang.String)[pri:3, instance:CreateUsersTestCases@7d1d39]" name="createBankUsers" duration-ms="13422" started-at="2022-01-12T14:31:02 EET" data-provider="newUserData" finished-at="2022-01-12T14:31:16 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bank Financial Operations Administrator]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8sep18user03]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBankUsers -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="closwWindnow" is-config="true" duration-ms="0" started-at="2022-01-12T14:31:16 EET" finished-at="2022-01-12T14:31:16 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closwWindnow -->
+        <test-method status="PASS" signature="MethodSetup()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="MethodSetup" is-config="true" duration-ms="0" started-at="2022-01-12T14:31:16 EET" finished-at="2022-01-12T14:31:16 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodSetup -->
+        <test-method status="PASS" signature="createBankUsers(java.lang.String,java.lang.String)[pri:3, instance:CreateUsersTestCases@7d1d39]" name="createBankUsers" duration-ms="11846" started-at="2022-01-12T14:31:16 EET" data-provider="newUserData" finished-at="2022-01-12T14:31:27 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bank Help Desk Operator / Call Center]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8sep18user04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBankUsers -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="closwWindnow" is-config="true" duration-ms="0" started-at="2022-01-12T14:31:27 EET" finished-at="2022-01-12T14:31:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closwWindnow -->
+        <test-method status="PASS" signature="MethodSetup()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="MethodSetup" is-config="true" duration-ms="1" started-at="2022-01-12T14:31:27 EET" finished-at="2022-01-12T14:31:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodSetup -->
+        <test-method status="PASS" signature="createBankUsers(java.lang.String,java.lang.String)[pri:3, instance:CreateUsersTestCases@7d1d39]" name="createBankUsers" duration-ms="13226" started-at="2022-01-12T14:31:27 EET" data-provider="newUserData" finished-at="2022-01-12T14:31:41 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bank Merchant Viewer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8sep18user05]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBankUsers -->
+        <test-method status="PASS" signature="MethodSetup()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="MethodSetup" is-config="true" duration-ms="0" started-at="2022-01-12T14:31:41 EET" finished-at="2022-01-12T14:31:41 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodSetup -->
+        <test-method status="PASS" signature="createBankUsers(java.lang.String,java.lang.String)[pri:3, instance:CreateUsersTestCases@7d1d39]" name="createBankUsers" duration-ms="12158" started-at="2022-01-12T14:31:41 EET" data-provider="newUserData" finished-at="2022-01-12T14:31:53 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bank Users Administrator]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8sep18user06]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBankUsers -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="closwWindnow" is-config="true" duration-ms="0" started-at="2022-01-12T14:31:41 EET" finished-at="2022-01-12T14:31:41 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closwWindnow -->
+        <test-method status="PASS" signature="closwWindnow()[pri:0, instance:CreateUsersTestCases@7d1d39]" name="closwWindnow" is-config="true" duration-ms="0" started-at="2022-01-12T14:31:53 EET" finished-at="2022-01-12T14:31:53 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closwWindnow -->
+      </class> <!-- CreateUsersTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
